@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fc962d2-645f-4aaf-b157-ddd89a896f86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/api/endpoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/agents/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/agents/interview_preparer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/agents/profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/agents/researcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/agents/resume_strategist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tasks/interview_preparation_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tasks/profile_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tasks/research_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tasks/resume_strategy_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tools/crew_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CrewAI_Skeleton/src/tools/fake_resume.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend/CrewAI_Skeleton" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2wfiCWHeHGd9aNYVFk350GtJS2I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Nadun kumarasinghe/Documents/GitHub/yes-chef-from-daraz/frontend",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fc962d2-645f-4aaf-b157-ddd89a896f86" name="Changes" comment="" />
+      <created>1746438903750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746438903750</updated>
+      <workItem from="1746438906539" duration="94000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet styles */
+.leaflet-container {
+  z-index: 1;
+}
+
+.leaflet-draw-actions {
+  z-index: 1000;
+}
