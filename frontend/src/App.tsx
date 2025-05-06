@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { MapPin } from 'lucide-react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Map from './components/Map';
@@ -13,6 +13,13 @@ function App() {
   const [businesses, setBusinesses] = useState<Business[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedBusiness, setSelectedBusiness] = useState<Business | null>(null);
+
+  // Store businesses in localStorage whenever they change
+  useEffect(() => {
+    if (businesses.length > 0) {
+      localStorage.setItem('businesses', JSON.stringify(businesses));
+    }
+  }, [businesses]);
 
   const handleAreaSelect = async (area: number, bounds: any) => {
     setSelectedArea(area);
@@ -84,6 +91,12 @@ function App() {
     }
   };
 
+  const handleSelectBusiness = (business: Business) => {
+    setSelectedBusiness(business);
+    // Also store the selected business in localStorage for the proposal generator
+    localStorage.setItem('selectedBusiness', JSON.stringify(business));
+  };
+
   return (
       <Router>
         <div className="flex">
@@ -118,7 +131,7 @@ function App() {
                               businesses={businesses}
                               loading={loading}
                               selectedArea={selectedArea}
-                              onSelectBusiness={setSelectedBusiness}
+                              onSelectBusiness={handleSelectBusiness}
                           />
                         </div>
                       </div>
